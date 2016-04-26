@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{472F2154-1A71-9FE4-BD4B-40B9CEA9F3DB}") = "SlackBall", "Assembly-CSharp.csproj", "{026DD6EB-579A-F8C1-5253-31AE62667AA3}"
+EndProject
+Project("{472F2154-1A71-9FE4-BD4B-40B9CEA9F3DB}") = "SlackBall", "Assembly-CSharp-Editor.csproj", "{07DADE33-22FC-198D-F65A-B3211BA39E26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{026DD6EB-579A-F8C1-5253-31AE62667AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026DD6EB-579A-F8C1-5253-31AE62667AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026DD6EB-579A-F8C1-5253-31AE62667AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026DD6EB-579A-F8C1-5253-31AE62667AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DADE33-22FC-198D-F65A-B3211BA39E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DADE33-22FC-198D-F65A-B3211BA39E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DADE33-22FC-198D-F65A-B3211BA39E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DADE33-22FC-198D-F65A-B3211BA39E26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

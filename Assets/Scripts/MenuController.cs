@@ -9,7 +9,11 @@ using System.Collections;
 //------------------------------------------------------------------------------
 public class MenuController : MonoBehaviour
 {
-	private static MenuController menuController;
+
+	//public GameObject buttonPlay;
+
+
+	private MenuController menuController;
 
 	//--------------------------------------------------------------------------
 	// public static methods
@@ -19,6 +23,7 @@ public class MenuController : MonoBehaviour
 	//--------------------------------------------------------------------------
 	protected void Awake()
 	{
+
 		menuController = this;
 	}
 	
@@ -28,6 +33,22 @@ public class MenuController : MonoBehaviour
 		{
 			menuController = null;
 		}
+	}
+
+	public void SwitchSceneToGame(){
+		MainController.SwitchScene("Game Scene");
+	}
+	public void SwitchSceneToSettings(){
+		MainController.SwitchScene("Settings");
+	}
+	public void SwitchSceneToFacebook(){
+		
+		MainController.SwitchScene("main_scene");
+
+	}
+	public void rate(){
+		//Debug.Log ("rate");
+		Application.OpenURL("http://slackball.com");
 	}
 	
 	protected void OnDisable()
@@ -46,7 +67,7 @@ public class MenuController : MonoBehaviour
 	{
 		if(Input.GetMouseButtonDown(0) == true)
 		{
-			MainController.SwitchScene("main_scene");
+			//MainController.SwitchScene("main_scene");
 		}
 	}
 
